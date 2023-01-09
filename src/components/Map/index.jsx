@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import L from 'leaflet';
 import './style.css';
-import { MapContainer, Marker, TileLayer, Popup, useMap} from 'react-leaflet';
 
 function Map() {
   const [position, setPosition ] = useState([51.505,-0.09]);
